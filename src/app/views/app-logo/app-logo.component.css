@@ -1,0 +1,28 @@
+.logo-container {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo-container>img {
+    width: 400px;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    /* Estilos */
+    .logo-container {
+
+        height: 370px;
+    }
+
+    .logo-container>img {
+        width: 100%;
+        margin: auto;
+    }
+
+}

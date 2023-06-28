@@ -12,14 +12,15 @@ button {
     background-color: #DAA520;
 }
 .button {
-    width: 60%;
-    height: 60px;
-    background-color: black;
-    border-radius: 10px;
-
-    margin-bottom: 4px;
-    margin-left: 250px;
-    margin-top: 50px;
+    width: 90%;
+        height: 60px;
+        padding: 15px;
+        
+        background-color: #2db52d;
+        border-radius: 10px;
+        margin-bottom: 4px;
+        margin-top: 50px;
+        margin-left: 20px;
 }
 
 .button:hover {
@@ -28,14 +29,20 @@ button {
 
 .button>a {
     color: white;
-    font-size: 1.2em;
-    font-family: 'black';
+        font-size: 1.2em;
+        font-family:'black';
+        text-align: center;
 }
 @media screen and (max-width: 480px) {
     .container{
         height: 1000px;
         margin-top: 200px;
     }
+    .teste{
+        background-color:white;
+        margin-bottom: 10px;
+    }
+
     h1{
         text-align: center;
         color: #DAA520;
@@ -49,13 +56,13 @@ button {
         background-color: #DAA520;
     }
     .button {
-        width: 60%;
+        width: 90%;
         height: 60px;
-        background-color: black;
+        padding: 15px;
+        
+        background-color: #2db52d;
         border-radius: 10px;
-
         margin-bottom: 4px;
-        margin-left: 85px;
         margin-top: 50px;
     }
 
@@ -66,6 +73,7 @@ button {
     .button>a {
         color: white;
         font-size: 1.2em;
-        font-family: 'black';
+        font-family:'black';
+        text-align: center;
     }
 }

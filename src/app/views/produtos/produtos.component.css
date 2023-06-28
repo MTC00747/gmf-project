@@ -1,4 +1,4 @@
-.container{
+.container-produtos{
     width: 100%;
     height: 1900px;
 
@@ -27,7 +27,7 @@ p {
 }
 h1{
     color:white;
-    font-family: 'Intro';
+    font-family: 'black';
     text-align: center;
     margin-bottom: 120px;
 }
@@ -41,7 +41,7 @@ span{
     .container{
         width: 100%;
         height: 1900px;
-
+    
         display : flex;
         flex-direction: column;
         align-items: center; 
@@ -67,9 +67,9 @@ span{
     }
     h1{
         color:white;
-        font-family: 'Intro';
+        font-family: 'black';
         text-align: center;
-        margin-bottom: 120px;
+        margin-top: 250px;
     }
     
     span{

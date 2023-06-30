@@ -16,4 +16,6 @@ html, body, app-root {
     src: url('./assets/fonts/Archivo_Black/ArchivoBlack-Regular.ttf') format('truetype');
   }
   
-
+a{
+  text-decoration: none;
+}
